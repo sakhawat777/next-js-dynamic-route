@@ -1,9 +1,10 @@
 import React from 'react';
-
+import Menu from './menu';
 const index = () => {
 	return (
 		<div>
-			<h1>Index Page</h1>
+			<Menu />
+			<h1>Index page</h1>
 		</div>
 	);
 };
